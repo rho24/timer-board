@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name A101SYCQ04)(type Legacy)(uri /home/richard/kicad/templates/toggle-switch-A101SYCQ04/A101SYCQ04.mod)(options "")(descr ""))
+)
