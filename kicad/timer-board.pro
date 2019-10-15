@@ -1,4 +1,4 @@
-update=Mon 14 Oct 2019 19:30:04 BST
+update=Tue 15 Oct 2019 17:45:11 BST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=timer-board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
