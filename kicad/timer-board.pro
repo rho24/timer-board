@@ -1,4 +1,4 @@
-update=Tue 15 Oct 2019 17:45:11 BST
+update=Tue 15 Oct 2019 17:52:43 BST
 version=1
 last_client=kicad
 [general]
@@ -239,28 +239,6 @@ Enabled=0
 Name=Default
 Clearance=0.2
 TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/1]
-Name=5V
-Clearance=0.2
-TrackWidth=0.5
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=GND
-Clearance=0.2
-TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

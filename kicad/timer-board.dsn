@@ -26,6 +26,8 @@
     )
     (plane GND (polygon F.Cu 0  304800 -101600  365760 -101600  365760 -129540  304800 -129540
             304800 -101600))
+    (plane +5V (polygon B.Cu 0  304800 -101600  365760 -101600  365760 -129540  304800 -129540
+            304800 -101600))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -426,33 +428,15 @@
     (net "Net-(J2-Pad1)"
       (pins J2-1 U2-3 U2-4)
     )
-    (class kicad_default "" 5V "Net-(C1-Pad1)" "Net-(C3-Pad1)" "Net-(D1-Pad1)"
-      "Net-(D1-Pad2)" "Net-(J1-Pad4)" "Net-(J1-Pad5)" "Net-(J2-Pad1)" "Net-(J2-Pad2)"
-      "Net-(R1-Pad1)" "Net-(R2-Pad2)" "Net-(R3-Pad1)" "Net-(RV1-Pad3)" "Net-(SW2-Pad1)"
-      "Net-(U1-Pad3)" "Net-(U2-Pad11)" "Net-(U2-Pad8)"
+    (class kicad_default "" +5V GND "Net-(C1-Pad1)" "Net-(C3-Pad1)" "Net-(D1-Pad1)"
+      "Net-(D1-Pad2)" "Net-(J2-Pad1)" "Net-(J2-Pad2)" "Net-(R1-Pad1)" "Net-(R2-Pad2)"
+      "Net-(R3-Pad1)" "Net-(RV1-Pad3)" "Net-(SW2-Pad1)" "Net-(U1-Pad3)" "Net-(U2-Pad11)"
+      "Net-(U2-Pad8)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
       (rule
         (width 250)
-        (clearance 200.1)
-      )
-    )
-    (class 5V +5V
-      (circuit
-        (use_via Via[0-1]_800:400_um)
-      )
-      (rule
-        (width 500)
-        (clearance 200.1)
-      )
-    )
-    (class GND GND
-      (circuit
-        (use_via Via[0-1]_800:400_um)
-      )
-      (rule
-        (width 500)
         (clearance 200.1)
       )
     )
