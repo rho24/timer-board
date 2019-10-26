@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name A101SYCQ04)(type Legacy)(uri /home/richard/kicad/templates/toggle-switch-A101SYCQ04/A101SYCQ04.mod)(options "")(descr ""))
+  (lib (name 74HC08D_653)(type Legacy)(uri ${KIPRJMOD}/templates/74HC08D/74HC08D_653.mod)(options "")(descr ""))
+  (lib (name NE555DR)(type Legacy)(uri ${KIPRJMOD}/templates/NES555DR/NE555DR.mod)(options "")(descr ""))
+  (lib (name SN74HC00DR)(type Legacy)(uri ${KIPRJMOD}/templates/SN74HC00DR/SN74HC00DR.mod)(options "")(descr ""))
+  (lib (name A101SYCQ04)(type Legacy)(uri ${KIPRJMOD}/templates/toggle-switch-A101SYCQ04/A101SYCQ04.mod)(options "")(descr ""))
 )
