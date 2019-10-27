@@ -35,10 +35,10 @@
 
   (setup
     (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (trace_clearance 0.0889)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.2)
+    (trace_min 0.0889)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -107,7 +107,7 @@
   (net 14 "Net-(U2-Pad3)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.0889)
     (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
@@ -1003,7 +1003,7 @@
   (segment (start 343.6874 120.46) (end 343.6874 119.19) (width 0.25) (layer F.Cu) (net 14))
   (segment (start 343.6874 117.92) (end 343.6874 119.19) (width 0.25) (layer F.Cu) (net 14))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5DB5E8E2) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
