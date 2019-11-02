@@ -1,16 +1,16 @@
-Comment,Designator,Footprint,LCSC, Field4, Field5, Field6, Field7, Field8, LCSC
-"1u","C1","Capacitor_SMD:C_0603_1608Metric","","","","","","","C15849"
-"0.01uF","C3,C2","Capacitor_SMD:C_0603_1608Metric","","","","","","","C57112"
-"LED - blue FV 2.5V","D1","LED_SMD:LED_0603_1608Metric","","","","","","","C72041"
-"LED - red FV 2V","D2","LED_SMD:LED_0603_1608Metric","","","","","","","C2286"
-"Conn_PWR","J1","Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical",""
-"Conn_Data","J2","Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical",""
-"JST Conn","J3","Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical",""
-"1K","R3,R2,R1,R4","Resistor_SMD:R_0603_1608Metric","","","","","","","C21190"
-"120","R5","Resistor_SMD:R_0603_1608Metric","","","","","","","C22787"
-"150","R6","Resistor_SMD:R_0603_1608Metric","","","","","","","C22808"
-"1M","RV1","Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal",""
-"SW_SPST","SW1","mine:snap spst switch",""
-"SW_SPDT","SW2","A101SYCQ04:TE_A101SYCQ04",""
-"NE555DR","U1","SOIC127P600X175-8N","","NE555DR","SOIC-8 Texas Instruments","Texas Instruments","None","Peripheral circuit; astable/monostable, timer; 500kHz;","C7593"
-"SN74HC00DR","U2","SOIC127P600X175-14N","","SN74HC00DR","296-1187-1-ND","Texas Instruments","IC: digital; inverter; NAND; Channels: 4; Inputs: 2; SMD;","https://www.digikey.com/product-detail/en/texas-instruments/SN74HC00DR/296-1187-1-ND/404900?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol","C10090"
+Comment,Designator,Footprint, LCSC
+1u,C1,Capacitor_SMD:C_0603_1608Metric,C15849
+0.01uF,"C3,C2",Capacitor_SMD:C_0603_1608Metric,C57112
+LED - blue FV 2.5V,D1,LED_SMD:LED_0603_1608Metric,C72041
+LED - red FV 2V,D2,LED_SMD:LED_0603_1608Metric,C2286
+Conn_PWR,J1,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+Conn_Data,J2,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,
+JST Conn,J3,Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical,
+1K,"R3,R2,R1,R4",Resistor_SMD:R_0603_1608Metric,C21190
+150,R5,Resistor_SMD:R_0603_1608Metric,C22808
+180,R6,Resistor_SMD:R_0603_1608Metric,C22828
+1M,RV1,mine:6mm_trimmer,
+SW_Push_SPDT,SW1,mine:switch_push_spdt,
+SW_SPDT,SW2,mine:switch_toggle_spdt,
+NE555DR,U1,SOIC127P600X175-8N,C7593
+SN74HC00DR,U2,SOIC127P600X175-14N,C10090

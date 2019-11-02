@@ -1,4 +1,4 @@
-3144808010473
+4718142350050
 mine
 6mm_trimmer
 
@@ -7,7 +7,14 @@ mine
 3
 3
 mine
-snap spst switch
+switch_push_spdt
+
+
+0
+3
+3
+mine
+switch_toggle_spdt
 
 
 0
