@@ -3,4 +3,5 @@
   (lib (name NE555DR)(type Legacy)(uri ${KIPRJMOD}/templates/NES555DR/NE555DR.mod)(options "")(descr ""))
   (lib (name SN74HC00DR)(type Legacy)(uri ${KIPRJMOD}/templates/SN74HC00DR/SN74HC00DR.mod)(options "")(descr ""))
   (lib (name A101SYCQ04)(type Legacy)(uri ${KIPRJMOD}/templates/toggle-switch-A101SYCQ04/A101SYCQ04.mod)(options "")(descr ""))
+  (lib (name mine)(type KiCad)(uri ${KIPRJMOD}/mine.pretty)(options "")(descr ""))
 )

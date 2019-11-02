@@ -126,7 +126,7 @@ U 1 1 5DA5C829
 P 2550 3350
 F 0 "RV1" H 2480 3304 50  0000 R CNN
 F 1 "1M" H 2480 3395 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-H5_Horizontal" H 2550 3350 50  0001 C CNN
+F 2 "mine:6mm_trimmer" H 2550 3350 50  0001 C CNN
 F 3 "~" H 2550 3350 50  0001 C CNN
 	1    2550 3350
 	-1   0    0    1   
